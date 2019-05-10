@@ -10,12 +10,17 @@ def load_library(fi)
   yaml['get_meaning'] = {}
   yaml['get_emoticon'] = {}
   #yaml['get_meaning'][] = 
+<<<<<<< HEAD
   raw_yaml.each do |k,v|
   yaml['get_meaning'][v[1]] = k
   yaml['get_emoticon'][v[0]] = v[1]
 
 end 
  
+=======
+  binding.pry 
+  
+>>>>>>> 9c9623cd4fb1d555b9b0f59e4b45b1092936780d
    
   return yaml
   
